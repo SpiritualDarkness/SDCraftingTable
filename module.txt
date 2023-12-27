@@ -1,0 +1,9 @@
+{
+    "id" : "SDCraftingTable",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "",
+    "displayName" : "SDCraftingTable",
+    "description" : "",
+    "dependencies" : [],
+    "serverSideOnly" : false
+}
