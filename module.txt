@@ -1,9 +1,14 @@
 {
-    "id" : "SDCraftingTable",
-    "version" : "0.1.0-SNAPSHOT",
-    "author" : "",
-    "displayName" : "SDCraftingTable",
-    "description" : "",
-    "dependencies" : [],
-    "serverSideOnly" : false
+  "id": "SDCraftingTable",
+  "version": "0.1.0-SNAPSHOT",
+  "author": "Megumin",
+  "displayName": "SDCraftingTable",
+  "description": "",
+  "dependencies": [
+    {
+      "id": "Inventory",
+      "minVersion": "1.1.0"
+    }
+  ],
+  "serverSideOnly": false
 }

@@ -1,0 +1,60 @@
+{
+    "type": "SDCraftingPanel",
+    "contents": {
+        "type": "relativeLayout",
+        "contents": [
+            {
+                "type": "UIBox",
+                "layoutInfo": {
+                    "width": 300,
+                    "height": 300,
+                    "position-horizontal-center": {},
+                    "position-vertical-center": {}
+                },
+                "content": {
+                    "type": "RowLayout",
+                    "horizontalSpacing": 4,
+                    "contents": [
+                        {
+                            "type": "InventoryGrid",
+                            "id": "recipe",
+                            "maxCellCount": 9,
+                            "maxHorizontalCells": 3,
+                            "layoutInfo": {
+                                "width": 112,
+                                "height": 56,
+                                "position-left": {
+                                    "offset": 70
+                                },
+                                "position-top": {
+                                    "offset": 361
+                                }
+                            }
+                        },
+                        {
+                            "type": "UILabel",
+                            "text": "Crafting"
+                        }
+                        ,
+                        {
+                            "type": "InventoryGrid",
+                            "id": "result",
+                            "maxCellCount": 1,
+                            "maxHorizontalCells": 1,
+                            "layoutInfo": {
+                                "width": 112,
+                                "height": 56,
+                                "position-left": {
+                                    "offset": 70
+                                },
+                                "position-top": {
+                                    "offset": 361
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
