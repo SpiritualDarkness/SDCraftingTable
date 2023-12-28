@@ -1,0 +1,17 @@
+{
+    "displayName": "CraftingTable",
+    "categories" : ["wood","decoration"],
+    "hardness": 4,
+    "family" : "horizontal",
+    "tiles" : {
+        "top" : "crafting_table_top",
+        "bottom" : "planks_oak",
+        "front" : "crafting_table_front",
+        "back" : "crafting_table_front",
+        "left" : "crafting_table_side",
+        "right" : "crafting_table_side"
+    },
+    "entity" : {
+        "prefab" : "crafting_table"
+    }
+}
