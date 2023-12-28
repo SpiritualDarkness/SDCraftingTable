@@ -18,6 +18,7 @@ public class SDCraftingPanel extends BaseInteractionScreen {
     @Override
     protected void initializeWithInteractionTarget(EntityRef interactionTarget) {
         recipe.bindTargetEntity(new DefaultBinding<>(interactionTarget));
+
     }
 
     @Override

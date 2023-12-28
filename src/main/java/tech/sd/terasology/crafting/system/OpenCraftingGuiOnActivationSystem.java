@@ -22,8 +22,9 @@ public class OpenCraftingGuiOnActivationSystem extends BaseComponentSystem {
     private NUIManager nuiManager;
     private static final Logger LOG = LoggerFactory.getLogger(OpenCraftingGuiOnActivationSystem.class);
 
-    @ReceiveEvent(components = {BlockComponent.class, OpenCraftingGuiOnActive.class})
-    public void onActivate(ActivateEvent event, EntityRef entityRef){
-        nuiManager.pushScreen("SDCraftingTable:SDCraftingPanel");
-    }
+//    @ReceiveEvent(components = {BlockComponent.class, OpenCraftingGuiOnActive.class})
+//    public void onActivate(ActivateEvent event, EntityRef entityRef){
+//        LOG.info("Current is interacting by" + entityRef.getClass().getName());
+//        nuiManager.pushScreen("SDCraftingTable:SDCraftingPanel");
+//    }
 }

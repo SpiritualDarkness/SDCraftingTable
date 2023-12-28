@@ -1,3 +1,34 @@
 {
-    "OpenCraftingGuiOnActive" : {}
+  "OpenCraftingGuiOnActive": {},
+  "Inventory": {
+    "itemSlots": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "InteractionTarget": {},
+  "InteractionScreen": {
+    "screen": "SDCraftingTable:SDCraftingPanel"
+  },
+  "RetainBlockInventory": {},
+  "PlaySoundAction": {
+    "sounds": "engine:click"
+  },
+  "Network": {
+  },
+  "categories": [
+    "wood"
+  ],
+  "hardness": 8,
+  "mass": 40
 }

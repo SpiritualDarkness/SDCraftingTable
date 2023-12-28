@@ -1,4 +1,5 @@
 {
+    "basedOn": "CoreAssets:wood",
     "displayName": "CraftingTable",
     "categories" : ["wood","decoration"],
     "hardness": 4,
