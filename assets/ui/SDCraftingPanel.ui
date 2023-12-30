@@ -1,13 +1,13 @@
 {
   "type": "SDCraftingPanel",
-  "skin": "inventoryDefault",
+  "skin": "crafting_table",
   "contents": {
     "type": "relativeLayout",
     "contents": [
       {
         "type": "UIBox",
         "layoutInfo": {
-          "width": 300,
+          "width": 400,
           "height": 300,
           "position-horizontal-center": {},
           "position-vertical-center": {}
@@ -17,21 +17,11 @@
           "contents": [
             {
               "type": "UILabel",
-              "text": "Crafting Crafting Crafting",
+              "text": "Crafting Table",
               "layoutInfo": {
                 "use-content-width": true,
                 "position-horizontal-center": {},
                 "height": 30
-              }
-            },
-            {
-              "image": "SDCraftingTable:crafting_panel",
-              "type": "UIImage",
-              "layoutInfo": {
-                "width": 400,
-                "height": 300,
-                "position-horizontal-center": {},
-                "position-vertical-center": {}
               }
             },
             {
@@ -45,7 +35,7 @@
                 "position-horizontal-center": {},
                 "position-vertical-center": {}
               }
-            }
+            },
           ]
         }
       }
